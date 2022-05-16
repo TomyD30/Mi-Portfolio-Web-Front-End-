@@ -1,0 +1,43 @@
+.barra-superior{
+    color: white;
+    margin: 10px;
+}
+
+.barra-superior-izquierda{
+    display: flex;
+    float: left;
+}
+
+#logo{
+    width: 100px;
+}
+
+.barra-superior-derecha{
+    justify-content: space-between;
+    float: right;
+    align-items: center;
+    display: flex;
+}
+
+.barra-superior-derecha img{
+    padding: 10px;
+}
+
+.logo-redes-sociales{
+    width: 20px;
+}
+
+button{
+    background-color: red;
+    padding: 10px;
+    margin: 10px;
+}
+
+.banner{
+    margin: 10px;
+    text-align: center;
+}
+
+.banner img{
+    width: 80%;
+}

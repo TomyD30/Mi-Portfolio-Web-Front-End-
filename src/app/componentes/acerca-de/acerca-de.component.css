@@ -1,0 +1,23 @@
+.foto-de-perfil img{
+    width: 10%;
+    border-radius: 100%;
+}
+
+.foto-de-perfil{
+    text-align: center;
+}
+
+h3, h4{
+    text-align: center;
+    position: relative;
+    bottom: 15px;
+}
+
+.sobre-mi{
+    display: flex;
+}
+
+.hobbies{
+    border: solid 1px orange ;
+    padding: 10px;
+}

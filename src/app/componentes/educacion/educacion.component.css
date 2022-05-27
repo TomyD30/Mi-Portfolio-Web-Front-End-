@@ -1,0 +1,13 @@
+.apartado{
+    display: flex;
+    border: solid orange ;
+}
+
+.instituto{
+    width: 200px;
+}
+
+.instituto img{
+    border-radius: 50%;
+    width: 50%;
+}

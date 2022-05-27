@@ -1,0 +1,18 @@
+<div class="container">
+    <h1>Mi información académica</h1>
+    <div 
+        class="apartado"
+        *ngFor="let educacion of educaciones"
+    >
+        <div class="instituto">
+            <figure>
+                <img src={{educacion.instituto[0].logo}} alt="logo de {{educacion.instituto[0].nombre}}">
+                <figcaption><h4>{{educacion.instituto[0].nombre}}</h4></figcaption>
+            </figure>
+        </div>
+        <div class="info">
+            <h3>{{educacion.nombre}}</h3>
+            <h4>{{educacion.periodo}}</h4>
+        </div>
+    </div>
+</div>

@@ -51,3 +51,43 @@ export const Educaciones: Educacion[] = [
         ]
     }
 ]
+
+interface Habilidad{
+    nombre: string,
+    nivel: string
+}
+
+export const Habilidades: Habilidad[] = [
+    {
+        nombre: "Front End",
+        nivel: "85%"
+    },
+    {
+        nombre: "Back End",
+        nivel: "10%"
+    },
+    {
+        nombre: "adadadda",
+        nivel: "37%"
+    },
+    {
+        nombre: "adaada",
+        nivel: "21%"
+    },
+    {
+        nombre: "adada1313dda",
+        nivel: "93%"
+    },
+    {
+        nombre: "seee",
+        nivel: "50%"
+    },
+    {
+        nombre: "mmm vos decis",
+        nivel: "20%"
+    },
+    {
+        nombre: "ingles xd",
+        nivel: "5%"
+    }
+]

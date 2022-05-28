@@ -1,0 +1,56 @@
+.proyectos{
+    border: solid orange;
+    box-shadow: -10px 10px 5px orange;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 40px;
+}
+
+.descripcion{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.descripcion h2{
+    text-align: center;
+}
+
+.descripcion h4{
+    text-align: center;
+}
+
+.links{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.link{
+    width: 150px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: solid orange;
+    box-shadow: -5px 5px 5px orange;
+    display: flex;
+}
+
+.link img{
+    width: 35px;
+    height: 35px;
+    margin: auto auto auto auto;
+}
+
+.link h4{
+    margin: auto auto auto auto;
+}
+
+.link a{
+    text-decoration: none;
+    color: orange;
+}
+
+.link a:hover{
+    text-decoration: underline;
+}

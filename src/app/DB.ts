@@ -91,3 +91,60 @@ export const Habilidades: Habilidad[] = [
         nivel: "5%"
     }
 ]
+
+interface Link{
+    nombre: string,
+    url: string,
+    logo: string
+}
+
+interface Proyecto{
+    nombre: string,
+    descripcion: string,
+    fechaRealizacion: string,
+    links?: Link[]
+}
+
+export const Proyectos: Proyecto[] = [
+    {
+        nombre: "Simulación epidémica",
+        descripcion: "Programa hecho en C que simula una epidemia en una población, y que se puede configurar para ver los efectos de una vacunación.",
+        fechaRealizacion: "2021",
+        links:[
+            {
+            nombre: "Repositorio",
+            url: "",
+            logo: "./assets/github.png"
+            }
+        ]
+    },
+    {
+        nombre: "Modelo de Eden",
+        descripcion: "Modelo que representa el crecimiento de...",
+        fechaRealizacion: "2021",
+        links:[
+            {
+            nombre: "Repositorio",
+            url: "",
+            logo: "./assets/github.png"
+            }
+        ]
+    },
+    {
+        nombre: "Este portfolio",
+        descripcion: "Mi portfolio web",
+        fechaRealizacion: "En proceso",
+        links:[
+            {
+                nombre: "Repositorio",
+                url: "https://github.com/TomyD30/Mi-Portfolio-Web-Front-End-",
+                logo: "./assets/github.png"
+            },
+            {
+                nombre: "Web",
+                url: "",
+                logo: "./assets/web.png"
+            }
+        ]
+    }
+]

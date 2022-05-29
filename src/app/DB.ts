@@ -148,3 +148,36 @@ export const Proyectos: Proyecto[] = [
         ]
     }
 ]
+
+interface Empresa{
+    nombre: string,
+    logo: string
+}
+
+interface ExperienciaLaboral{
+    nombre: string,
+    periodo: string,
+    descripcion: string,
+    empresa: Empresa
+}
+
+export const ExperienciasLaborales: ExperienciaLaboral[] = [
+    {
+        nombre: "Ayudante en la materia 'Física I'",
+        periodo: "2do cuatrimestre 2021",
+        descripcion: "Fui ayudante en la materia, dando clases para los estudiantes y preparando examenes",
+        empresa:{
+            nombre: "Universidad Nacional de Mar del Plata",
+            logo: "./assets/logoUNMDP.png"
+        }
+    },
+    {
+        nombre: "Ayudante en la materia 'Introducción a la Física'",
+        periodo: "1er cuatrimestre 2022",
+        descripcion: "Fui ayudante en la materia en la parte práctica (ayudando a los estudiantes con las guías), y trabajé en el laboratorio de la materia preprando los materiales necesarios y ayudando a los estudiantes a realizar los trabajos",
+        empresa:{
+            nombre: "Universidad Nacional de Mar del Plata",
+            logo: "./assets/logoUNMDP.png"
+        }
+    }
+]

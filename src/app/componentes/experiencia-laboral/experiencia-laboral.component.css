@@ -1,0 +1,26 @@
+.trabajo{
+    border: solid orange;
+    display: flex;
+}
+
+.empresa{
+    width: 150px;
+}
+
+.empresa figure{
+    margin: 0px;
+}
+
+.empresa img{
+    width: 150px;
+    height: 150px;
+}
+
+.empresa h4{
+    text-align: center;
+    margin-top: 0px
+}
+
+.descripcion{
+    margin-left: 10px;
+}

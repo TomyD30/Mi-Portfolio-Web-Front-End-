@@ -1,6 +1,7 @@
 .trabajo{
     border: solid orange;
     display: flex;
+    background-color: black;
 }
 
 .empresa{

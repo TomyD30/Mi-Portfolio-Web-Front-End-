@@ -1,17 +1,35 @@
-.barra-superior{
-    margin: 10px;
-}
-
 .barra-superior-izquierda{
     display: flex;
     float: left;
+    height: 80px;
+    align-items: center;
 }
 
 #logo{
-    width: 100px;
+    width: 130px;
+    height: 80px;
+}
+
+#titulo{
+    display: block;
+    white-space: nowrap;
+    width: 12ch;
+    border-right: 4px solid transparent;
+    
+    animation: typing 2s steps(12) , blink .5s 6 step-end alternate;
+    overflow: hidden;
+}
+
+@keyframes typing{
+    from{width: 0}
+}
+
+@keyframes blink{
+    50%{border-color: white;}
 }
 
 .barra-superior-derecha{
+    height: 80px;
     justify-content: space-between;
     float: right;
     align-items: center;
@@ -24,6 +42,10 @@
 
 .logo-redes-sociales{
     width: 20px;
+}
+
+.logo-redes-sociales:hover{
+    width: 30px;
 }
 
 button{
@@ -40,3 +62,4 @@ button{
 .banner img{
     width: 80%;
 }
+

@@ -4,6 +4,7 @@
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 40px;
+    background-color: black;
 }
 
 .descripcion{
@@ -34,6 +35,11 @@
     border: solid orange;
     box-shadow: -5px 5px 5px orange;
     display: flex;
+}
+
+.link:hover{
+    background-color: rgb(24, 19, 19);
+    /* text-decoration: underline; */
 }
 
 .link img{

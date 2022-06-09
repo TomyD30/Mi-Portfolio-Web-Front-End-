@@ -1,0 +1,71 @@
+.navegacion-principal{
+    /* width: 65vw;
+    height: 45vw; (responsive) */
+    width: 800px;
+    height: 600px;
+    /* background-image: url("../../../assets/Fondo.jpg"); */
+    margin: auto;
+    /* outline: 5px solid orange; */
+    position: relative;
+}
+
+.nav-clickeable{
+    /* width: 12.5%;
+    height: 16.6%; (responsive) */
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    font-size: 1.2em;
+
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    background-size: 100% 100%;
+
+    transition: 0.5s;
+}
+
+.nav-clickeable:hover{
+    width: 135px;
+    height: 135px;
+    font-size: 1.3em; /* queda mejor que la letra se achique o agrande */
+    text-shadow: 0px 0px 10px black;
+}
+
+.nav-clickeable h4{
+    margin: auto;
+    color: white;
+}
+
+.nav-acerca-de{
+    top: 10%;
+    left: 10%;
+    background-image: url(http://assets.stickpng.com/thumbs/580b585b2edbce24c47b2705.png);
+}
+
+.nav-laboral{
+    top: 5%;
+    right: 15%;
+    background-image: url(http://assets.stickpng.com/thumbs/580b585b2edbce24c47b270b.png);
+}
+
+.nav-educativo{
+    bottom: 15%;
+    left: 20%;
+    background-image: url(https://w7.pngwing.com/pngs/901/693/png-transparent-jupiter-planet-jupiter-planet-solar-system-juno-saturn-jupiter-file-atmosphere-sphere-space-thumbnail.png);
+}
+
+.nav-habilidades{
+    top: 40%;
+    left: 45%;
+    background-image: url(http://assets.stickpng.com/thumbs/580b585b2edbce24c47b2709.png);
+}
+
+.nav-proyectos{
+    bottom: 20%;
+    right: 10%;
+    background-image: url(http://assets.stickpng.com/thumbs/580b585b2edbce24c47b2708.png);
+}

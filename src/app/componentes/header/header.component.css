@@ -6,8 +6,9 @@
 }
 
 #logo{
-    width: 130px;
-    height: 80px;
+    width: 160px;
+    height: 100px;
+    margin: -10px 5px -10px -10px;
 }
 
 #titulo{
@@ -41,11 +42,11 @@
 }
 
 .logo-redes-sociales{
-    width: 20px;
+    width: 28px;
 }
 
 .logo-redes-sociales:hover{
-    width: 30px;
+    width: 38px;
 }
 
 button{

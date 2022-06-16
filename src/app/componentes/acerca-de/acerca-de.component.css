@@ -1,5 +1,6 @@
 .foto-de-perfil img{
     width: 10%;
+    border: solid black;
     border-radius: 100%;
 }
 
@@ -7,15 +8,32 @@
     text-align: center;
 }
 
-h3, h4{
+.nombre-y-profesion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2, h4{
     text-align: center;
     position: relative;
     bottom: 15px;
+    background-color: black;
+    font-weight: 120;
+    padding: 5px;
+    display: inline-block;
 }
 
 .sobre-mi{
     display: flex;
     background-color: black;
+    border: solid 1px orange;
+    padding: 10px;
+}
+
+.sobre-mi-texto{
+    width: 90%;
+    font-size: 1.3em;
 }
 
 .hobbies{

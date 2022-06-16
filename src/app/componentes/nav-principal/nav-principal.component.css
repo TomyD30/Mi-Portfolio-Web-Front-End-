@@ -43,29 +43,29 @@
 .nav-acerca-de{
     top: 10%;
     left: 10%;
-    background-image: url(http://assets.stickpng.com/thumbs/580b585b2edbce24c47b2705.png);
+    background-image: url(../../../assets/iconos-nav-principal/tierra.png);
 }
 
 .nav-laboral{
     top: 5%;
     right: 15%;
-    background-image: url(http://assets.stickpng.com/thumbs/580b585b2edbce24c47b270b.png);
+    background-image: url(../../../assets/iconos-nav-principal/luna.png);
 }
 
 .nav-educativo{
     bottom: 15%;
     left: 20%;
-    background-image: url(https://w7.pngwing.com/pngs/901/693/png-transparent-jupiter-planet-jupiter-planet-solar-system-juno-saturn-jupiter-file-atmosphere-sphere-space-thumbnail.png);
+    background-image: url(../../../assets/iconos-nav-principal/jupiter.png);
 }
 
 .nav-habilidades{
     top: 40%;
     left: 45%;
-    background-image: url(http://assets.stickpng.com/thumbs/580b585b2edbce24c47b2709.png);
+    background-image: url(../../../assets/iconos-nav-principal/mercurio.png);
 }
 
 .nav-proyectos{
     bottom: 20%;
     right: 10%;
-    background-image: url(http://assets.stickpng.com/thumbs/580b585b2edbce24c47b2708.png);
+    background-image: url(../../../assets/iconos-nav-principal/luna2.png);
 }

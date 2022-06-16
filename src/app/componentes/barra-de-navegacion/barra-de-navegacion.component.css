@@ -1,0 +1,26 @@
+.barra-de-navegacion{
+    background-color: black;
+    font-size: 1.5em;
+    height: 40px;
+    outline: 1px solid orange;
+    font-size: 1.2em;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.barra-de-navegacion a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.barra-de-navegacion a:hover{
+    text-shadow: 0px 0px 5px white;
+    font-size: 1.3em; 
+}

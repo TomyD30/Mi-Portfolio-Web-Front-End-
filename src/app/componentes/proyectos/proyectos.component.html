@@ -1,0 +1,22 @@
+<div id="mis-proyectos" class="container">
+    <div class="titulo"><h1>Mis proyectos</h1></div>
+    <div 
+        class="proyectos"
+        *ngFor = "let proyecto of proyectos"
+    >
+        <div class="descripcion">
+            <h2>{{proyecto.nombre}}</h2>
+            <h4>{{proyecto.fechaRealizacion}}</h4>
+            <p>{{proyecto.descripcion}}</p>
+        </div>
+        <div class="links">
+            <div 
+                class="link"
+                *ngFor = "let link of proyecto.links"
+            >
+                <img src={{link.logo}}>
+                <h4><a href={{link.url}}>{{link.nombre}}</a></h4>
+            </div>
+        </div>
+    </div>
+</div>

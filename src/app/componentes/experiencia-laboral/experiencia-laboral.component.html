@@ -1,0 +1,19 @@
+<div id="mi-experiencia-laboral" class="container">
+    <div class="titulo"><h1>Mis experiencias laborales</h1></div>
+    <div 
+        class="trabajo"
+        *ngFor = "let experiencia of experiencias"
+    >
+        <div class="empresa">
+            <figure>
+                <img src={{experiencia.empresa.logo}}>
+                <figcaption><h4>{{experiencia.empresa.nombre}}</h4></figcaption>
+            </figure>
+        </div>
+        <div class="descripcion">
+            <h3>{{experiencia.nombre}}</h3>
+            <h4>{{experiencia.periodo}}</h4>
+            <p>{{experiencia.descripcion}}</p>
+        </div>
+    </div>
+</div>

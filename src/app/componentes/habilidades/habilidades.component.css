@@ -1,0 +1,44 @@
+#mis-habilidades{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.habilidad{
+    width: 200px;
+    height: 200px;
+    /* display: inline-block; */
+    padding: 10px;
+}
+
+.imagen{
+    text-align: center;
+    margin: auto;
+    width: 85%;
+    height: 85%;
+    /* esto lo copie para alinear los elementos en el centro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    border: solid orange 4px;
+    border-radius: 100%;
+}
+
+.descripcion{
+    text-align: center;
+    background-color: black;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo h1{
+    background-color: black;
+    color: orange;
+    text-align: center;
+    display: inline-block;
+}

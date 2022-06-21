@@ -1,8 +1,8 @@
 .barra-de-navegacion{
-    background-color: black;
+    background: linear-gradient(to right,rgb(64, 140, 240),rgb(255, 145, 0));
     font-size: 1.5em;
     height: 40px;
-    outline: 1px solid orange;
+    outline: 1px solid var(--color-principal);
     font-size: 1.2em;
     
     display: flex;
@@ -17,7 +17,7 @@
 .barra-de-navegacion a{
     padding: 10px;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .barra-de-navegacion a:hover{

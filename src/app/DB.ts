@@ -84,7 +84,7 @@ export const Habilidades: Habilidad[] = [
     },
     {
         nombre: "mmm vos decis",
-        nivel: "20%"
+        nivel: "90%"
     },
     {
         nombre: "ingles xd",

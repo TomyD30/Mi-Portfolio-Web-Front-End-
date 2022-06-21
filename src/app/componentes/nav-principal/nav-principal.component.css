@@ -1,9 +1,12 @@
+#navegacion{
+    cursor: url(https://cdn.custom-cursor.com/db/cursor/32/Rocket_cursor.png), default;
+}
+
 .navegacion-principal{
     /* width: 65vw;
     height: 45vw; (responsive) */
     width: 800px;
     height: 600px;
-    /* background-image: url("../../../assets/Fondo.jpg"); */
     margin: auto;
     /* outline: 5px solid orange; */
     position: relative;
@@ -14,7 +17,7 @@
     height: 16.6%; (responsive) */
     width: 130px;
     height: 130px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     font-size: 1.2em;
 
     position: absolute;
@@ -43,29 +46,49 @@
 .nav-acerca-de{
     top: 10%;
     left: 10%;
-    background-image: url(../../../assets/iconos-nav-principal/tierra.png);
+    background-image: url(../../../assets/iconos-nav-principal/planeta-azul.png);
+}
+
+.nav-acerca-de:hover{
+    background-image: url(../../../assets/iconos-nav-principal/planeta-azul-hover.png);
 }
 
 .nav-laboral{
     top: 5%;
     right: 15%;
-    background-image: url(../../../assets/iconos-nav-principal/luna.png);
+    background-image: url(../../../assets/iconos-nav-principal/luna2.png);
+}
+
+.nav-laboral:hover{
+    background-image: url(../../../assets/iconos-nav-principal/luna2-hover.png);
 }
 
 .nav-educativo{
     bottom: 15%;
     left: 20%;
-    background-image: url(../../../assets/iconos-nav-principal/jupiter.png);
+    background-image: url(../../../assets/iconos-nav-principal/tierra.png);
+}
+
+.nav-educativo:hover{
+    background-image: url(../../../assets/iconos-nav-principal/tierra-hover2.png);
 }
 
 .nav-habilidades{
     top: 40%;
     left: 45%;
-    background-image: url(../../../assets/iconos-nav-principal/mercurio.png);
+    background-image: url(../../../assets/iconos-nav-principal/jupiter.png);
+}
+
+.nav-habilidades:hover{
+    background-image: url(../../../assets/iconos-nav-principal/jupiter-hover.png);
 }
 
 .nav-proyectos{
     bottom: 20%;
     right: 10%;
-    background-image: url(../../../assets/iconos-nav-principal/luna2.png);
+    background-image: url(../../../assets/iconos-nav-principal/marte.png);
+}
+
+.nav-proyectos:hover{
+    background-image: url(../../../assets/iconos-nav-principal/marte-hover.png);
 }

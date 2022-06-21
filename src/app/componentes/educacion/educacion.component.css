@@ -1,13 +1,15 @@
 .apartado{
     display: flex;
-    border: solid orange ;
-    background-color: black;
+    border: solid var(--color-principal) ;
+    background: var(--color-fondo);
+    margin: 0 100px;
 }
 
 .instituto{
-    width: 150px;
+    flex-basis: 150px;
     margin-left: 5px;
     margin-right: 5px;
+    padding-right: 5px;
 }
 
 .instituto figure{
@@ -22,16 +24,5 @@
 
 .instituto figure h4{
     text-align: center;
-}
-
-.titulo{
-    display: flex;
-    justify-content: center;
-}
-
-.titulo h1{
-    background-color: black;
-    color: orange;
-    text-align: center;
-    display: inline-block;
+    width: 150px;
 }

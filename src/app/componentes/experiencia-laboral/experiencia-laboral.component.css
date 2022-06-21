@@ -1,7 +1,8 @@
 .trabajo{
-    border: solid orange;
+    border: solid var(--color-principal);
     display: flex;
-    background-color: black;
+    background: var(--color-fondo);
+    margin: 0 100px;
 }
 
 .empresa{
@@ -27,15 +28,4 @@
 
 .descripcion{
     margin-left: 10px;
-}
-
-.titulo{
-    display: flex;
-    justify-content: center;
-}
-
-.titulo h1{
-    background-color: black;
-    display: inline-block;
-    color: orange;
 }

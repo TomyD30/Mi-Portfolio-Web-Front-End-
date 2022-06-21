@@ -1,10 +1,10 @@
 .proyectos{
-    border: solid orange;
-    box-shadow: -10px 10px 5px orange;
+    border: solid var(--color-principal);
+    box-shadow: -10px 10px 5px var(--color-principal);
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 40px;
-    background-color: black;
+    background: var(--color-fondo);
 }
 
 .descripcion{
@@ -20,18 +20,6 @@
     text-align: center;
 }
 
-.titulo{
-    display: flex;
-    justify-content: center;
-}
-
-.titulo h1{
-    background-color: black;
-    color: orange;
-    text-align: center;
-    display: inline-block;
-}
-
 .links{
     display:flex;
     justify-content: center;
@@ -44,13 +32,13 @@
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
-    border: solid orange;
-    box-shadow: -5px 5px 5px orange;
+    border: solid var(--color-principal);
+    box-shadow: -5px 5px 5px var(--color-principal);
     display: flex;
 }
 
 .link:hover{
-    background-color: rgb(24, 19, 19);
+    background: linear-gradient(to right,rgb(74, 153, 255),rgb(255, 145, 0));
     /* text-decoration: underline; */
 }
 
@@ -66,7 +54,7 @@
 
 .link a{
     text-decoration: none;
-    color: orange;
+    color: var(--color-principal);
 }
 
 .link a:hover{

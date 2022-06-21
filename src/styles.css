@@ -1,4 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+/* Declaracion de variables */
+:root{
+    --color-principal: black;
+    /* --color-fondo: linear-gradient(to right,rgba(64, 140, 240, 0.719),rgba(255, 145, 0, 0.733)); */
+    /* --color-fondo: black; */
+    --color-fondo: linear-gradient(to right,rgba(74, 153, 255, 0.719),rgba(255, 145, 0, 0.733));
+}
+
 html{
     scroll-behavior: smooth; /* scroll suave al clickear en un link (navegacion) */
 }
@@ -6,9 +13,12 @@ html{
 body{
     background-color: #000000;
     /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%23ffffff' fill-opacity='0.23'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E"); */
-    background-image: url(assets/Fondo.jpg);
+    background-image: url(assets/Fondo2.jpg);
     background-attachment: fixed;
-    color: white;
+    background-size: 100%;
+    color: black;
+    font-family: 'Trispace', sans-serif;
+    font-size: 0.8em;
 }
 
 .container{
@@ -16,4 +26,46 @@ body{
     overflow: auto;
     padding: 10px;
     border-radius: 5px;
+}
+
+.titulo-seccion{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-seccion h1{
+    /* background-color: black; */
+    background: var(--color-fondo);
+    color: var(--color-principal);
+    text-align: center;
+    display: inline-block;
+    padding: 8px;
+}
+
+/* Custom Scrollbar (no soportada en algunos navegadores) - Testeando */
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    /* background: #e27e20; */
+    background-image: url(../src/assets/Fondo2.jpg);
+    background-position: right;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    /* background: #e20; */
+    background-image: url(../src/assets/scrollbar.png);
+    background-size: 200% 100%;
+    background-position: -10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-image: url(../src/assets/scrollbar-hover.png);
+    background-size: 200% 100%;
+    background-position: -10px;
 }

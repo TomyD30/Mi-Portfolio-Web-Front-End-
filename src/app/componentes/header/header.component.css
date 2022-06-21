@@ -12,6 +12,7 @@
 }
 
 #titulo{
+    color: white;
     display: block;
     white-space: nowrap;
     width: 12ch;

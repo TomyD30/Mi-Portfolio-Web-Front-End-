@@ -1,21 +1,23 @@
 <div id="mis-proyectos" class="container">
-    <div class="titulo-seccion"><h1>Mis proyectos</h1></div>
-    <div 
-        class="proyectos"
-        *ngFor = "let proyecto of proyectos"
-    >
-        <div class="descripcion">
-            <h2>{{proyecto.nombre}}</h2>
-            <h4>{{proyecto.fechaRealizacion}}</h4>
-            <p>{{proyecto.descripcion}}</p>
-        </div>
-        <div class="links">
-            <div 
-                class="link"
-                *ngFor = "let link of proyecto.links"
-            >
-                <img src={{link.logo}}>
-                <h4><a href={{link.url}}>{{link.nombre}}</a></h4>
+    <div class="titulo-seccion mt-5"><h1>Mis proyectos</h1></div>
+    <div class="row justify-content-center">
+        <div 
+            class="proyectos col-12 col-sm-8 mb-4"
+            *ngFor = "let proyecto of proyectos"
+        >
+            <div class="descripcion">
+                <h2 id="proy-nombre" class="mt-2">{{proyecto.nombre}}</h2>
+                <h4 id="proy-fecha">{{proyecto.fechaRealizacion}}</h4>
+                <p id="proy-descripcion">{{proyecto.descripcion}}</p>
+            </div>
+            <div class="links">
+                <div 
+                    class="link"
+                    *ngFor = "let link of proyecto.links"
+                >
+                    <img src={{link.logo}}>
+                    <h4><a class="stretched-link" href={{link.url}}>{{link.nombre}}</a></h4>
+                </div>
             </div>
         </div>
     </div>

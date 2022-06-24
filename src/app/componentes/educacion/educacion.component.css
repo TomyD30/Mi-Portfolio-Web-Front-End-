@@ -1,28 +1,36 @@
 .apartado{
-    display: flex;
+    /* display: flex; */
     border: solid var(--color-principal) ;
     background: var(--color-fondo);
-    margin: 0 100px;
+    /* margin: 0 100px; */
 }
 
-.instituto{
+/* .instituto{
     flex-basis: 150px;
     margin-left: 5px;
     margin-right: 5px;
     padding-right: 5px;
-}
+} */
 
 .instituto figure{
     margin: 0;
     width: 100%;
     height: 100%;
+    text-align: center;
 }
 
-.instituto img{
+/* .instituto img{
     width: 100%;
-}
+} */
 
 .instituto figure h4{
-    text-align: center;
-    width: 150px;
+    font-size: 0.7rem;
+}
+
+#ed-nombre{
+    font-size: 1.7rem;
+}
+#ed-periodo{
+    font-size: 1rem;
+    color: white;
 }

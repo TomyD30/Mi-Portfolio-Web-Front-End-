@@ -1,14 +1,16 @@
 .barra-superior-izquierda{
     display: flex;
-    float: left;
-    height: 80px;
+    /* float: left; */
+    height: 60px;
     align-items: center;
+    justify-content: center;
 }
 
 #logo{
-    width: 160px;
-    height: 100px;
-    margin: -10px 5px -10px -10px;
+    width: 140px;
+    height: 40px;
+    padding-right: 10px;
+    /* margin: -10px 5px -10px -10px; */
 }
 
 #titulo{
@@ -31,26 +33,28 @@
 }
 
 .barra-superior-derecha{
-    height: 80px;
-    justify-content: space-between;
-    float: right;
+    height: 60px;
+    justify-content: center;
+    /* float: right; */
     align-items: center;
     display: flex;
 }
 
-.barra-superior-derecha img{
+/* .barra-superior-derecha img{
     padding: 10px;
-}
+} */
 
 .logo-redes-sociales{
-    width: 28px;
+    /* width: 28px; */
+    width: 50%;
 }
 
 .logo-redes-sociales:hover{
-    width: 38px;
+    /* width: 38px; */
+    width: 60%;
 }
 
-button{
+.barra-superior-derecha button{
     background-color: red;
     padding: 10px;
     margin: 10px;
@@ -64,4 +68,20 @@ button{
 .banner img{
     width: 80%;
 } */
+
+.barra-iniciar-sesion{
+    text-align: end;
+    height: 28px;
+}
+
+.barra-iniciar-sesion div{
+    background: var(--color-fondo);
+    height: 27px;
+}
+
+.barra-iniciar-sesion button{
+    background-color: transparent;
+    /* border: none; */
+    height: 27px;
+}
 

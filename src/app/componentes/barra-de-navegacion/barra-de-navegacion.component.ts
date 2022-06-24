@@ -1,4 +1,4 @@
-import { Component, ViewChild , ElementRef , AfterViewInit , HostListener } from '@angular/core';
+import { Component, ViewChild , ElementRef , AfterViewInit , HostListener, Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'app-barra-de-navegacion',
@@ -14,7 +14,7 @@ export class BarraDeNavegacionComponent implements AfterViewInit {
   // scrollTop: number = 0 ;
   // barraDeNavegacion2 = document.getElementById('bdn');
 
-  constructor() { }
+  constructor(private renderer: Renderer2) { }
 
   ngAfterViewInit(): void {
   }
@@ -24,12 +24,14 @@ export class BarraDeNavegacionComponent implements AfterViewInit {
   mostrarScroll(): void{
     this.distanciaTopBarra = this.barraDeNavegacion.nativeElement.getBoundingClientRect().top;
     if(this.distanciaTopBarra == 0){
-      this.barraDeNavegacion.nativeElement.style.transition = "1s"; 
-      this.barraDeNavegacion.nativeElement.style.opacity = 1;
+      this.renderer.setStyle(this.barraDeNavegacion.nativeElement,"transition","1s");
+      this.renderer.setStyle(this.barraDeNavegacion.nativeElement,"opacity",1);
+      // this.renderer.setStyle(this.barraDeNavegacion.nativeElement,"height","40px");
     }
     else{
-      this.barraDeNavegacion.nativeElement.style.transition = "0.3s"; 
-      this.barraDeNavegacion.nativeElement.style.opacity = 0;
+      this.renderer.setStyle(this.barraDeNavegacion.nativeElement,"transition","0.3s");
+      this.renderer.setStyle(this.barraDeNavegacion.nativeElement,"opacity",0);
+      // this.renderer.setStyle(this.barraDeNavegacion.nativeElement,"height","0");
     }
   }
 }

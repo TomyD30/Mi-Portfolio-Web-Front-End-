@@ -1,18 +1,18 @@
 <div id="mi-informacion-academica" class="container">
-    <div class="titulo-seccion"><h1>Mi información académica</h1></div>
+    <div class="titulo-seccion mt-5"><h1>Mi información académica</h1></div>
     <div 
-        class="apartado"
+        class="apartado row justify-content-center mb-2"
         *ngFor="let educacion of educaciones"
     >
-        <div class="instituto">
+        <div class="instituto col col-sm-3 order-2 order-sm-1 align-self-center">
             <figure>
-                <img src={{educacion.instituto[0].logo}} alt="logo de {{educacion.instituto[0].nombre}}">
+                <img class="img-fluid" src={{educacion.instituto[0].logo}} alt="logo de {{educacion.instituto[0].nombre}}">
                 <figcaption><h4>{{educacion.instituto[0].nombre}}</h4></figcaption>
             </figure>
         </div>
-        <div class="info">
-            <h3>{{educacion.nombre}}</h3>
-            <h4>{{educacion.periodo}}</h4>
+        <div class="info col-12 col-sm order-1 order-sm-2">
+            <h3 id="ed-nombre" class="mt-2">{{educacion.nombre}}</h3>
+            <h4 id="ed-periodo">{{educacion.periodo}}</h4>
         </div>
     </div>
 </div>

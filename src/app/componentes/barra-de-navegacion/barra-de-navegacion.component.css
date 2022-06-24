@@ -1,13 +1,15 @@
 .barra-de-navegacion{
     background: linear-gradient(to right,rgb(64, 140, 240),rgb(255, 145, 0));
     font-size: 1.5em;
-    height: 40px;
+    height: auto;
     outline: 1px solid var(--color-principal);
     font-size: 1.2em;
     
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
     display: flex;
     justify-content: center;
-    align-items: center;
 
     position: sticky;
     top: 0;
@@ -18,9 +20,19 @@
     padding: 10px;
     text-decoration: none;
     color: black;
+    /* margin: auto; */
 }
 
 .barra-de-navegacion a:hover{
     text-shadow: 0px 0px 5px white;
     font-size: 1.3em; 
+}
+
+.nav-link{
+    text-align: center;
+}
+
+a.nav-link.active{
+    font-size: 1.3em;
+    color: white;
 }

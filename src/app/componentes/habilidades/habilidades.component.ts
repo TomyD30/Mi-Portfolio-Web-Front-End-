@@ -9,6 +9,7 @@ import { Habilidades } from "../../DB";
 export class HabilidadesComponent implements OnInit , AfterViewInit {
 
   @ViewChildren("imagen") imagenHabilidad !: QueryList<ElementRef>;
+  // @ViewChildren("descripcion") descripciones !: QueryList<ElementRef>;
 
   habilidades = Habilidades;
 
@@ -31,7 +32,7 @@ export class HabilidadesComponent implements OnInit , AfterViewInit {
       distanciaDer = anchoPagina - imagen.nativeElement.getBoundingClientRect().right;
       if(distanciaDer < distanciaIzq){
         this.renderer.setAttribute(imagen.nativeElement,"src","../../../assets/estrellaNaranja.png");
-        this.renderer.setStyle(imagen.nativeElement,"filter","brightness(" + this.habilidades[contador].nivel + ")");     
+        this.renderer.setStyle(imagen.nativeElement,"filter","brightness(" + this.habilidades[contador].nivel + ")");
         // imagen.nativeElement.style.filter = "invert()" + " brightness(" + this.habilidades[contador].nivel + ")";
       }
       else if(distanciaDer == distanciaIzq){

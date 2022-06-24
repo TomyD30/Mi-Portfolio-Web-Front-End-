@@ -1,18 +1,19 @@
 <div id="mis-habilidades" class="container">
-    <div class="titulo-seccion"><h1>Mis habilidades</h1></div>
-    <div id="habilidades" >
+    <div class="titulo-seccion mt-5"><h1>Mis habilidades</h1></div>
+    <div id="habilidades" class="row">
         <div 
-            class="habilidad"
+            class="habilidad col-6 col-sm-3"
             *ngFor = "let habilidad of habilidades"
         >
-            <div class="imagen">
+            <div class="imagen col-12">
                 <img
                     #imagen
+                    class="img-fluid"
                     src="../../../assets/estrella.png"
                     alt="estrella que indica el nivel de la habilidad"
                 >
             </div>
-            <div class="descripcion">
+            <div #descripcion class="descripcion col-12">
                 <h3>{{habilidad.nombre}} ({{habilidad.nivel}})</h3>
             </div>
         </div>

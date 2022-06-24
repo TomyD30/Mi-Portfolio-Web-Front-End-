@@ -1,31 +1,43 @@
 .trabajo{
     border: solid var(--color-principal);
-    display: flex;
+    /* display: flex; */
     background: var(--color-fondo);
-    margin: 0 100px;
+    /* margin: 0 100px; */
 }
 
-.empresa{
-    width: 150px;
-    margin-left: 5px;
-}
+/* .empresa{
+    padding-right: 20px;
+} */
 
 .empresa figure{
     margin: 0;
     width: 100%;
     height: 100%;
+    text-align: center;
 }
 
-.empresa img{
-    width: 150px;
-    height: 150px;
-}
+/* .empresa img{
+    width: 10%;
+    height: auto;
+} */
 
 .empresa figure h4{
     text-align: center;
     width: 100%;
+    font-size: 0.7rem;
 }
 
-.descripcion{
+/* .descripcion{
     margin-left: 10px;
+} */
+
+#exp-nombre{
+    font-size: 1.7rem;
+}
+#exp-periodo{
+    font-size: 1rem;
+    color: white;
+}
+#exp-descripcion{
+    font-size: .9rem;
 }

@@ -1,5 +1,5 @@
 .foto-de-perfil img{
-    width: 10%;
+    width: 20%;
     border: solid var(--color-principal);
     border-radius: 100%;
 }
@@ -14,18 +14,23 @@
     align-items: center;
 }
 
-h2, h4{
+h2, h5{
     text-align: center;
-    position: relative;
-    bottom: 15px;
     background: var(--color-fondo);
     font-weight: 120;
     padding: 5px;
     display: inline-block;
 }
 
+h2{
+    font-size: 1.7rem;
+}
+h5{
+    font-size: .8rem;
+}
+
 .sobre-mi{
-    display: flex;
+    /* display: flex; */
     background: var(--color-fondo);
     border: solid 1px var(--color-principal);
     padding: 10px;
@@ -39,4 +44,6 @@ h2, h4{
 .hobbies{
     border: solid 1px var(--color-principal);
     padding: 10px;
+    height: 20%;
+    color: white;
 }
